@@ -11,7 +11,12 @@ export const ThemeToggle = () => {
         variant="ghost"
         size="sm"
         onClick={() => setTheme(theme === "light" ? "dark" : "light")}
-      ></Button>
+      >
+        <SunMedium
+          size={20}
+          className="rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0"
+        />
+      </Button>
     </div>
   );
 };
