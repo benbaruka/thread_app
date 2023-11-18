@@ -5,7 +5,8 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <h1>This is my home page</h1>
+      Hello world !<Button>Hey click me</Button>
+      <Input />
     </div>
   );
 }
