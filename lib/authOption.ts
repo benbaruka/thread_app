@@ -1,4 +1,3 @@
-import NextAuth from "next-auth/next";
 import GithubProvider from "next-auth/providers/github";
 import { env } from "./env";
 export const authOptions = {
@@ -11,5 +10,3 @@ export const authOptions = {
     // ...add more providers here
   ],
 };
-
-export default NextAuth(authOptions);
