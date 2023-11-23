@@ -17,13 +17,13 @@ export const Footer = () => {
         <Home size={20} />
       </Link>
       <Link
-        href="/"
+        href="/write"
         className={(clsx(buttonVariants({ variant: "ghost" })), "flex-1")}
       >
         <PenSquare size={20} />
       </Link>
       <Link
-        href="/"
+        href="/profile"
         className={(clsx(buttonVariants({ variant: "ghost" })), "flex-1")}
       >
         <User size={20} />
