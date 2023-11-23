@@ -49,6 +49,7 @@ model VerificationRequest {
 
   @@unique([identifier, token])
 }
+//application
 
 model User {
   id            String    @id @default(cuid())
