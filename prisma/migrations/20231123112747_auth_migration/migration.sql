@@ -63,3 +63,4 @@ CREATE UNIQUE INDEX "VerificationRequest_identifier_token_key" ON "VerificationR
 
 -- CreateIndex
 CREATE UNIQUE INDEX "User_email_key" ON "User"("email");
+
