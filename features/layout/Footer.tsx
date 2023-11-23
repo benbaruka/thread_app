@@ -1,4 +1,4 @@
-import { Home } from "lucide-react";
+import { Home, PenSquare, User } from "lucide-react";
 import Link from "next/link";
 import React from "react";
 import clsx from "clsx";
@@ -20,13 +20,13 @@ export const Footer = () => {
         href="/"
         className={(clsx(buttonVariants({ variant: "ghost" })), "flex-1")}
       >
-        <Home size={20} />
+        <PenSquare size={20} />
       </Link>
       <Link
         href="/"
         className={(clsx(buttonVariants({ variant: "ghost" })), "flex-1")}
       >
-        <Home size={20} />
+        <User size={20} />
       </Link>
     </div>
   );
