@@ -4,11 +4,11 @@ import React from "react";
 
 export const Header = async () => {
   return (
-    <div className="border-b border-b-accent">
+    <header className="border-b bottom-b-accent">
       <div className="container flex items-center py-2 max-w-lg m-auto gap-1 justify-between">
         <h2 className="text-2xl font-bold mr-auto">My thread</h2>
         <ThemeToggle />
       </div>
-    </div>
+    </header>
   );
 };
