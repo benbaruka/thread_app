@@ -1,11 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import Image from "next/image";
+import { getAuthSession } from "@/lib/authOption";
 
-export default function Home() {
+export default async function Home() {
+  const session = await getAuthSession();
+  console.log(session);
   return (
     <div>
-      <h1>This is my home page</h1>
+      <p>{JSON.stringify(session, null, 2)}</p>
+      Hello world !<Button>Hey click me</Button>
+      <Input />
     </div>
   );
 }
